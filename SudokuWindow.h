@@ -4,8 +4,10 @@
 #include <QRegularExpression>
 #include <QRegularExpressionValidator>
 #include <QValidator>
+#include <QComboBox>
 #include <QPushButton>
 #include <QMessageBox>
+#include <QFileDialog>
 #include <Qfile>
 #include <QTimer>
 
@@ -18,6 +20,13 @@ private:
     QLineEdit* cells[9][9];
     int grid[9][9];
 
-    void ReadSudoku();
+    QPushButton* LoadButton;
+    QPushButton* CheckButton;
+    QPushButton* SolveButton;
+
+    void LoadSudoku(int FileIndex);
+    void CheckSudoku();
     void SolveSudoku();
+
+    void ResetCell(QLineEdit* cell);
 };

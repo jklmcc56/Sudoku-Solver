@@ -101,7 +101,17 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="s0.txt" />
-    <Text Include="s0 Solved.txt" />
+    <Text Include="s1.txt" />
+    <Text Include="s10.txt" />
+    <Text Include="s11.txt" />
+    <Text Include="s2.txt" />
+    <Text Include="s3.txt" />
+    <Text Include="s4.txt" />
+    <Text Include="s5.txt" />
+    <Text Include="s6.txt" />
+    <Text Include="s7.txt" />
+    <Text Include="s8.txt" />
+    <Text Include="s9.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="SudokuWindow.h" />

@@ -21,6 +21,9 @@
       <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
       <Extensions>ts</Extensions>
     </Filter>
+    <Filter Include="Sudoku Files">
+      <UniqueIdentifier>{1cfea119-9402-4e70-96c1-deebcfda26b1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <QtRcc Include="SudokuSolver.qrc">
@@ -43,10 +46,40 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="s0.txt">
-      <Filter>Source Files</Filter>
+      <Filter>Sudoku Files</Filter>
     </Text>
-    <Text Include="s0 Solved.txt">
-      <Filter>Source Files</Filter>
+    <Text Include="s1.txt">
+      <Filter>Sudoku Files</Filter>
+    </Text>
+    <Text Include="s2.txt">
+      <Filter>Sudoku Files</Filter>
+    </Text>
+    <Text Include="s3.txt">
+      <Filter>Sudoku Files</Filter>
+    </Text>
+    <Text Include="s4.txt">
+      <Filter>Sudoku Files</Filter>
+    </Text>
+    <Text Include="s5.txt">
+      <Filter>Sudoku Files</Filter>
+    </Text>
+    <Text Include="s6.txt">
+      <Filter>Sudoku Files</Filter>
+    </Text>
+    <Text Include="s7.txt">
+      <Filter>Sudoku Files</Filter>
+    </Text>
+    <Text Include="s8.txt">
+      <Filter>Sudoku Files</Filter>
+    </Text>
+    <Text Include="s9.txt">
+      <Filter>Sudoku Files</Filter>
+    </Text>
+    <Text Include="s10.txt">
+      <Filter>Sudoku Files</Filter>
+    </Text>
+    <Text Include="s11.txt">
+      <Filter>Sudoku Files</Filter>
     </Text>
   </ItemGroup>
   <ItemGroup>
